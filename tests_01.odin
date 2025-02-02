@@ -125,6 +125,8 @@ main :: proc() {
 
 }
 
+// This is just a cbrt function I was trying to make myself. I ending up learning of the
+// c library with the cbrt function there. Neat! :)
 cbrt_e64 :: proc(f: f64) -> f64 {
 	_f := abs(f)
 	res := math.pow(_f, 1.0 / 3.0)
